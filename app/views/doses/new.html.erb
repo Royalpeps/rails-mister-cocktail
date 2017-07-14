@@ -1,0 +1,6 @@
+<h1>
+Ajouter une dose et son ingrédient à votre cocktail <%= @cocktail.name %></h1>
+
+<%= render 'form', cocktail: @cocktail, dose: @dose %>
+
+<%= link_to 'Retour Cocktail', cocktail_path(@cocktail) %>
